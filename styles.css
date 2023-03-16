@@ -65,14 +65,15 @@ body {
 }
 
 .cloud2 {
-    position: absolute;
-    top: 350px;
+    position: relative;
+    bottom: 18rem;
+    left: 3.5rem;
 }
 
 .cloud1 {
     position: relative;
     top: 2rem;
-    left: 15rem;
+    left: 15.25rem;
 }
 
 .copy-text {
@@ -131,6 +132,11 @@ hr {
     margin-top: 100px;
 }
 
+.mountain {
+    position: relative;
+    right: 4.7rem;
+}
+
 .profile-image {
     height: 200px;
     border-radius: 50%;
@@ -144,7 +150,7 @@ hr {
 
 .skills-img-code {
     position: relative;
-    top: 3rem;
+    top: 4rem;
     width: 25%;
     float: left;
     margin-right: 30px;
@@ -153,10 +159,11 @@ hr {
 
 .skills-img-lift {
     position: relative;
-    top: 1rem;
+    top: 2rem;
     width: 30%;
     float: right;
     margin-left: 30px;
+    margin-bottom: 4rem;
 }
 
 .skill-row {
